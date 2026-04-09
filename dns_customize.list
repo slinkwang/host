@@ -1,7 +1,6 @@
-# 纯域名
-+.dns.alidns.com
-+.doh.pub
-+.baidu
-+.time.windows.com
-+.agedm.io
-+.omofuna.com
+# 直连补充列表(国内域名不解析时，防止走代理使用)
+DOMAIN-SUFFIX,dns.alidns.com
+DOMAIN-SUFFIX,doh.pub
+DOMAIN-SUFFIX,time.windows.com
+DOMAIN-SUFFIX,agedm.io
+DOMAIN-SUFFIX,omofuna.com
