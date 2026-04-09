@@ -6,11 +6,6 @@
 #- DOMAIN-SUFFIX,google.com #匹配域名后缀
 #- DOMAIN-KEYWORD,google #匹配域名关键字
 #- DOMAIN,google.com #匹配域名
-#- IP-CIDR,127.0.0.0/8,DIRECT #匹配数据目标IP(直连)
-#- SRC-IP-CIDR,192.168.1.201/32,DIRECT #匹配数据发起IP(直连)
-#- DST-PORT,80,DIRECT #匹配数据目标端口(直连)
-#- SRC-PORT,7777,DIRECT #匹配数据源端口(直连)
-#- GEOSITE,category-public-tracker,DIRECT #匹配GEOSITE数据库规则(直连)
 payload:
   - DOMAIN-SUFFIX,dns.alidns.com
   - DOMAIN-SUFFIX,doh.pub
