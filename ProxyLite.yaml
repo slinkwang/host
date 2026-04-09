@@ -8,28 +8,8 @@
 #- DST-PORT,80,DIRECT #匹配数据目标端口(直连)
 #- SRC-PORT,7777,DIRECT #匹配数据源端口(直连)
 #- GEOSITE,category-public-tracker,DIRECT #匹配GEOSITE数据库规则(直连)
-
-payload:
-  - DOMAIN-SUFFIX,dns.google
-  - DOMAIN-SUFFIX,1dot1dot1dot1.cloudflare-dns.com
-  - DOMAIN-SUFFIX,dot.sb
-  - DOMAIN-SUFFIX,dns.umbrella.com
-  - DOMAIN-SUFFIX,dns.quad9.net
-  - DOMAIN-SUFFIX,dns.google
-  - DOMAIN-SUFFIX,cloudflare-dns.com
-  - DOMAIN-SUFFIX,doh.dns.sb
-  - DOMAIN-SUFFIX,doh.opendns.com
-  - DOMAIN-SUFFIX,dns.quad9.net
-  - DOMAIN-SUFFIX,hk-hkg.doh.sb
-  - DOMAIN-SUFFIX,dytt8899.com
-  - IP-CIDR,8.8.8.8/32,no-resolve
-  - IP-CIDR,8.8.4.4/32,no-resolve
-  - IP-CIDR,1.1.1.1/32,no-resolve
-  - IP-CIDR,1.0.0.1/32,no-resolve
-  - IP-CIDR,185.222.222.222/32,no-resolve
-  - IP-CIDR,208.67.222.222/32,no-resolve
-  - IP-CIDR,208.67.220.220/32,no-resolve
 # MyList  
+payload:
   - DOMAIN-SUFFIX,qichiyu.com
   - DOMAIN-SUFFIX,hdfans.org
   - DOMAIN-SUFFIX,dytt8899.com
