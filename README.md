@@ -1,1 +1,1 @@
-template
+规则
