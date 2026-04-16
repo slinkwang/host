@@ -13,6 +13,7 @@
 # 直连补充列表(国内域名不解析时，防止走代理使用)
 
 # 代理补充列表
+DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,nousresearch.com
 DOMAIN-SUFFIX,qichiyu.com
 DOMAIN-SUFFIX,hdfans.org
