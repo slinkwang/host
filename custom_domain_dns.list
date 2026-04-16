@@ -20,7 +20,6 @@ DOMAIN-SUFFIX,hdfans.org
 DOMAIN-SUFFIX,dytt8899.com
 DOMAIN-KEYWORD,1e100
 
-# 国外DNS
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,dns.cloudflare.com
 DOMAIN-SUFFIX,cloudflare-dns.com
