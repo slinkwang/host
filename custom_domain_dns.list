@@ -11,7 +11,6 @@
 ##DOMAIN-REGEX,^abc.*com,PROXY #正则匹配域名
 ##RULE-SET,providername,PROXY #匹配规则集
 # 直连补充列表(国内域名不解析时，防止走代理使用)
-
 # 代理补充列表
 DOMAIN-SUFFIX,ipify.org
 DOMAIN-SUFFIX,nousresearch.com
@@ -20,6 +19,7 @@ DOMAIN-SUFFIX,hdfans.org
 DOMAIN-SUFFIX,dytt8899.com
 DOMAIN-KEYWORD,1e100
 
+#foreignDNS
 DOMAIN-SUFFIX,dns.google
 DOMAIN-SUFFIX,dns.cloudflare.com
 DOMAIN-SUFFIX,cloudflare-dns.com
