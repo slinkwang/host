@@ -10,7 +10,7 @@
 #GEOSITE,category-public-tracker,DIRECT #匹配GEOSITE数据库规则(直连)
 #DOMAIN-REGEX,^abc.*com,PROXY #正则匹配域名
 #RULE-SET,providername,PROXY #匹配规则集
-# Lan地址
+# Lan
 IP-CIDR,0.0.0.0/8
 IP-CIDR,10.0.0.0/8
 IP-CIDR,100.64.0.0/10
@@ -38,6 +38,7 @@ IP-CIDR,119.29.107.85/32,no-resolve
 IP-CIDR,119.29.29.29/32,no-resolve
 DOMAIN-SUFFIX,dns.alidns.com
 DOMAIN-SUFFIX,doh.pub
-# 直连补充列表(国内域名不解析时，防止走代理使用)
+
+#cndircet
 DOMAIN-SUFFIX,agedm.io
 DOMAIN-SUFFIX,omofuna.com
